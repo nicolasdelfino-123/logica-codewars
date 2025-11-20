@@ -121,4 +121,37 @@ Extraé `"ramac"` usando exclusivamente `slice`.
 
 ---
 
-Cuando completes todos los ejercicios, podés avanzar al **Módulo 2 – `splice()`**.
+
+🔥 5 Ejercicios Avanzados de slice()
+Slice Avanzado 1 — Extraer bloques dinámicos
+
+Dado:
+const arr = [1,2,3,4,5,6,7,8,9]
+Usando slice(), extraé un bloque de 4 elementos centrado (los del medio), sin escribir números mágicos.
+Debe funcionar incluso si el array cambia de tamaño.
+
+Slice Avanzado 2 — Dividir un string en dos mitades
+
+Dado:
+"Programación"
+Dividí el string en dos mitades usando slice() y devolvé un array con ambas mitades.
+Si es impar, la mitad izquierda debe tener 1 letra más.
+
+Slice Avanzado 3 — Clonar parcialmente un array sin el primer y último elemento
+
+Dado:
+[100, 200, 300, 400, 500]
+Devolvé una copia sin el primer ni el último, pero sin usar índices fijos (debe adaptarse al tamaño del array).
+
+Slice Avanzado 4 — Rotar un array
+
+Dado:
+["a","b","c","d","e"]
+Rotá el array 2 lugares a la izquierda usando solo slice(), devolviendo:
+["c","d","e","a","b"]
+
+Slice Avanzado 5 — Últimos N caracteres dinámicos
+
+Escribí una función que reciba (string, n) y devuelva los últimos n caracteres usando solo slice.
+Ejemplo:
+sliceEnd("JavaScript", 6) // "Script"

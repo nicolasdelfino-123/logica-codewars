@@ -128,4 +128,37 @@ Usando un único `splice`, eliminá **todos los elementos excepto `"a"` y `"b"`*
 
 ---
 
-Cuando termines los 10 ejercicios, pasamos al **Módulo 3 — `indexOf()` + `includes()`**.
+🔥 5 Ejercicios Avanzados de splice()
+Splice Avanzado 1 — Intercalar valores
+
+Dado:
+[1, 3, 5, 7]
+Insertá los números pares entre medio para que quede:
+[1,2,3,4,5,6,7]
+Usando múltiples splice() dinámicos.
+
+Splice Avanzado 2 — Eliminar todos los repetidos
+
+Dado:
+[1,1,2,3,3,3,4]
+Usando un for + indexOf() + splice(), eliminá todos los valores repetidos, dejando solo uno de cada uno.
+
+Splice Avanzado 3 — Cortar un array en X partes
+
+Dado un array y un número X, cortalo en X partes lo más iguales posibles, usando solo splice() para ir sacando las porciones.
+Ejemplo con X=3:
+[1,2,3,4,5,6,7,8] → [[1,2,3],[4,5,6],[7,8]]
+
+Splice Avanzado 4 — Insertar un sub-array en una posición específica
+
+Dado:
+["a","b","e","f"]
+Insertá ["c","d"] en el medio para que quede:
+["a","b","c","d","e","f"]
+Usar un único splice().
+
+Splice Avanzado 5 — Reemplazar todos los negativos por 0
+
+Dado:
+[4,-2,7,-9,10]
+Usando un for + splice() reemplazá cada número negativo por 0.
