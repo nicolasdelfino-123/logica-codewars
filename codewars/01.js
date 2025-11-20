@@ -6,7 +6,7 @@ Example (Input => Output):
 0     => [0] */
 
 
-function digitize(num) {
+/* function digitize(num) {
     //code here
     let arr = String(num).split("")
     let result = []
@@ -14,5 +14,11 @@ function digitize(num) {
         result.push(Number(arr[i]))
     }
     return result
+} */
+
+function digitize(n) {
+    return (n + '').split('').map(Number).reverse();
+
 }
+
 console.log(digitize(35231))
