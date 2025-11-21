@@ -54,6 +54,56 @@ Recordá: **splice modifica el array original** y puede **agregar, quitar o reem
 
 ---
 
+🔹 5 Ejercicios Básicos (ESTOS SÍ HACER)
+✔️ Ejercicio 1 — Eliminar un elemento
+
+Dado: ["a","b","c","d"]
+Eliminá el elemento en índice 2.
+
+✔️ Ejercicio 2 — Eliminar varios elementos
+
+Dado: [10,20,30,40,50]
+Borrá los elementos en índice 1 y 2.
+
+✔️ Ejercicio 3 — Insertar un elemento
+
+Dado: ["lunes","martes","jueves","viernes"]
+Insertá "miércoles" sin borrar nada.
+
+✔️ Ejercicio 4 — Reemplazar un elemento
+
+Dado: ["js","python","java"]
+Reemplazá "python" por "TypeScript".
+
+✔️ Ejercicio 5 — Insertar varios elementos
+
+Dado: ["a","d"]
+Insertá "b" y "c" entre medio con un solo splice.
+
+🔸 5 Ejercicios Intermedios (ESTOS SÍ HACER — VIDA REAL)
+✔️ Ejercicio 6 — Eliminar el último elemento (sin pop)
+
+Debe ser dinámico con .length.
+
+✔️ Ejercicio 7 — Reemplazar una sección completa
+
+Reemplazar ["verde","azul"] por ["amarillo","cyan"].
+
+✔️ Ejercicio 8 — Insertar elementos al principio (sin unshift)
+
+Insertá 1 y 2 al inicio con un único splice.
+
+✔️ Ejercicio 9 — Remover por valor (dinámico)
+
+Eliminar "js" buscando su índice con indexOf.
+
+✔️ Ejercicio 10 — Dejar solo los dos primeros
+
+Eliminar TODO excepto "a" y "b" con un solo splice.
+----------------
+--------------
+-----------
+
 # 🔹 **5 Ejercicios Básicos**
 
 ## **Ejercicio 1 — Eliminar un elemento**

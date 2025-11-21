@@ -45,7 +45,65 @@ Funciona en arrays y strings
 
 Acá empieza la magia.  
 Ejercicios reales, rebuscados, útiles, nada aburridos.
+-------------------------------------
 
+🔹 Ejercicios que SÍ HACER (7 ejercicios totales)
+✔ 3 fáciles (fundamento)
+✔ 4 nivel entrevista / vida real
+
+Los demás ejercicios avanzados quedan marcados como NO HACER.
+
+🟢 3 Ejercicios Fáciles (HACER)
+✔ Ejercicio 1 — Primer índice de un valor
+
+Dado: ["rojo", "azul", "verde", "azul", "negro"]
+Obtené el primer índice donde aparece "azul".
+
+✔ Ejercicio 2 — Verificar si NO existe
+
+Dado: [5, 7, 9, 12]
+Si 10 no existe (indexOf === -1) → imprimir "NO ESTA".
+
+✔ Ejercicio 3 — Buscar la primera aparición de una letra
+
+Dado el string "Programación"
+Encontrá el índice donde aparece "a" por primera vez.
+
+🟣 4 Ejercicios Nivel Entrevista / Vida Real (HACER)
+⭐ Ejercicio 4 — Remover un valor por nombre (patrón real)
+
+Dado: ["html", "css", "js", "react"]
+Encontrá "js" con indexOf
+→ y ELIMINALO usando splice().
+
+(Este patrón se usa MUCHO en React y en listas dinámicas.)
+
+⭐ Ejercicio 5 — Comprobar si un rol es válido (whitelist)
+
+Tenés:
+let permitidos = ["admin", "editor", "invitado"];
+Dado rol = "editor"
+Verificá con indexOf si es válido.
+
+Devolver: "ROL OK" o "ROL INVALIDO".
+
+⭐ Ejercicio 6 — Validación de contraseña (real)
+
+Dado un string "nicodev123"
+Validar que NO contenga ninguno de estos caracteres:
+[" ", "/", "\\", "*", "#"]
+
+Usá for + indexOf dentro del string.
+
+⭐ Ejercicio 7 — Encontrar TODAS las posiciones de un valor
+
+Dado: ["🍎","🍌","🍎","🍓","🍎"]
+Encontrá todas las posiciones donde esté "🍎"
+y guardalas en un array.
+
+(Este ejercicio enseña a recorrer arrays + usar indexOf para múltiples coincidencias.)
+-------------
+----------------
 ---
 
 ## **Ejercicio 1 — Buscar la primera coincidencia**

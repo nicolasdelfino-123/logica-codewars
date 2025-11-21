@@ -35,7 +35,84 @@ El tamaño siempre es el mismo
 
 No modifica el original
 
+------------------------------------------------
 
+🟢 3 Ejercicios Fáciles (HACER)
+
+Para entender la base del método.
+
+✔ Ejercicio 1 — Multiplicar por 3
+
+Dado: [1, 2, 3, 4]
+Devolver un array donde cada número esté multiplicado por 3.
+
+✔ Ejercicio 2 — Capitalizar nombres
+
+Dado: ["nico", "ana", "juan"]
+Devolver: ["Nico", "Ana", "Juan"].
+
+✔ Ejercicio 3 — Longitud de strings
+
+Dado: ["js", "python", "go"]
+Devolver un array con las longitudes: [2, 6, 2].
+
+🟣 4 Ejercicios Nivel Entrevista / Vida Real (HACER)
+
+Estos son importantes en React, empresas y lógica real.
+
+⭐ Ejercicio 4 — Normalizar datos (vida real)
+
+Dado: [" NICO ", " Ana ", " JuAn "]
+Devolverlos:
+
+sin espacios
+
+en minúscula
+
+Ej: ["nico", "ana", "juan"].
+
+⭐ Ejercicio 5 — Extraer propiedades de objetos
+
+Dado:
+
+[
+  { nombre: "Nico", edad: 36 },
+  { nombre: "Ana", edad: 22 }
+]
+
+
+Devolver solo los nombres:
+["Nico", "Ana"].
+
+(Muy usado en React para renderizar listas)
+
+⭐ Ejercicio 6 — Crear slugs para URLs
+
+Dado:
+["Curso de JavaScript", "Mi Página Web", "Hola Mundo"]
+
+Crear:
+["curso-de-javascript", "mi-página-web", "hola-mundo"]
+
+(Este es RE típico de frontend)
+
+⭐ Ejercicio 7 — Calcular totales de productos
+
+Dado:
+
+[
+  { producto: "cafe", precio: 200, cantidad: 2 },
+  { producto: "te", precio: 150, cantidad: 3 }
+]
+
+
+Devolver:
+[400, 450]
+(precio * cantidad)
+
+(Esto aparece en entrevistas y en cualquier ecommerce)
+
+------------------------------------------------
 ---
 
 # 🟢 **5 Ejercicios Fáciles (map nivel inicial)**

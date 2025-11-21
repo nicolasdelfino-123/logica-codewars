@@ -45,7 +45,94 @@ Funciona en arrays y strings
 
 No modifica nada
 
-----
+----------------------------------------------
+
+
+🟢 2 Ejercicios Fáciles (HACER — PARA ENTRAR EN CALOR)
+✔ Ejercicio 1 — Ver si un valor existe
+
+Dado: ["a","b","c","d"]
+Verificá si "c" está en el array.
+
+✔ Ejercicio 2 — Substring dentro de string
+
+Dado: "Aprendiendo JavaScript"
+Verificá si contiene "Java".
+
+🟣 5 Ejercicios Nivel Entrevista / Vida Real (HACER)
+⭐ Ejercicio 3 — Validación de roles (REACT REAL)
+
+Tenés:
+
+const permitidos = ["admin","editor","viewer"];
+const rol = "editor";
+
+
+Usá includes() para verificar si rol está permitido.
+Si está → "OK"
+Si no → "INVALIDO".
+
+(Patrón clásico de autenticación en React.)
+
+⭐ Ejercicio 4 — Detectar palabras prohibidas
+
+Dado un texto y palabras prohibidas:
+
+const prohibidas = ["spam","oferta","gratis"];
+
+
+Usá un for + includes() para detectar si el texto contiene alguna de ellas.
+
+(Usado en validación de inputs, moderación, formularios.)
+
+⭐ Ejercicio 5 — Validar extensión de archivo
+
+Dado:
+
+const permitidas = [".jpg",".png",".webp"];
+const archivo = "foto.png";
+
+
+Obtené la extensión usando slice()
+
+Verificá con includes() si está permitida.
+
+(Muy común en formularios de carga de archivos.)
+
+⭐ Ejercicio 6 — Filtrar productos por categoría
+
+Dado:
+
+[
+  "cafe-molido",
+  "cafe-instantaneo",
+  "te-negro",
+  "te-verde",
+  "cafe-espresso"
+]
+
+
+Crear un array NUEVO con los productos que incluyan "cafe"
+(usando filter() + includes()).
+
+(Esto es EXACTAMENTE lo que se usa en búsquedas en e-commerce.)
+
+⭐ Ejercicio 7 — Autocompletado / Búsqueda parcial
+
+Dado:
+
+["programacion","producto","proyecto","problema","propuesta"]
+
+
+Y un input = "pro"
+
+Crear un array con todos los elementos que comiencen con "pro"
+usando includes() + slice() o startsWith() si querés comparar.
+
+(Este es literal un ejercicio de entrevista sobre buscadores.)
+
+
+------------------------------------------------
 
 ---
 
