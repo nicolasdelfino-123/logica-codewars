@@ -58,6 +58,12 @@ Dado el array:
 Obtené un nuevo array con **los últimos 3 elementos** usando solo `slice`.
 
 ---
+## Ejercicio 2-A
+🧩 Ejercicio avanzado (slice + índices negativos)
+Dado el array:
+["a", "b", "c", "d", "e", "f", "g", "h"]
+
+Obtené un nuevo array con los elementos entre el 3° y el 5° empezando desde el final (inclusive el 3°, exclusivo el 5°), usando solo índices negativos en slice.
 
 ## **Ejercicio 3**
 Dado el array:  
@@ -87,6 +93,23 @@ Dado el array:
 `["lunes", "martes", "miércoles", "jueves", "viernes"]`  
 Conseguí un array con **"miércoles" y "jueves"** únicamente.
 
+6b - 
+Ejercicio 6-B (slice + combinación de tramos)
+
+Dado el array:
+
+["rojo", "azul", "verde", "amarillo", "negro", "blanco"]
+
+
+Obtené un nuevo array que contenga solamente:
+
+"azul"
+
+"amarillo"
+
+"blanco"
+
+Usando solo slice (los que necesites) y cualquier forma de combinarlos (spread, concat, lo que quieras).
 ---
 
 ## **Ejercicio 7**
