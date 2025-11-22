@@ -87,13 +87,14 @@ Verificá con indexOf si es válido.
 
 Devolver: "ROL OK" o "ROL INVALIDO".
 
-⭐ Ejercicio 6 — Validación de contraseña (real)
+⭐ Ejercicio 6 — Validación de contraseña (real) no hacer
 
 Dado un string "nicodev123"
 Validar que NO contenga ninguno de estos caracteres:
 [" ", "/", "\\", "*", "#"]
 
 Usá for + indexOf dentro del string.
+Usarías .test() con regex o .includes().
 
 ⭐ Ejercicio 7 — Encontrar TODAS las posiciones de un valor
 
