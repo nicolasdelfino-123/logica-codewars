@@ -77,3 +77,92 @@ console.log(reverseWords("hola mundo"));
 
 console.log(reverseWords("js es magia"));
 // "sj se aigam"
+
+----------------------------
+
+⭐ PACK SAGRADO — 7 ejercicios obligatorios para entrevistas
+🔥 1) Duplicar cada número (map)
+
+Crear una función doubleNumbers(arr) que, dado un array de números, devuelva un nuevo array con cada número multiplicado por 2.
+
+console.log(doubleNumbers([1, 2, 3])); // [2, 4, 6]
+
+
+Concepto: map, transformación simple.
+
+🔥 2) Filtrar mayores a un límite (filter)
+
+Crear getAdults(arr) que reciba un array de edades y devuelva solo las edades mayores o iguales a 18.
+
+console.log(getAdults([10, 18, 25, 12])); // [18, 25]
+
+
+Concepto: filter con comparación.
+
+🔥 3) Contar cuántos son verdad (filter + length)
+
+Crear countTrues(arr) que reciba un array de booleanos y devuelva cuántos son true.
+
+console.log(countTrues([true, false, true, true])); // 3
+
+
+Concepto: filter + length.
+
+🔥 4) Sumar todo (reduce)
+
+Crear sumAll(arr) que devuelva la suma de todos los números usando reduce.
+
+console.log(sumAll([1, 2, 3, 4])); // 10
+
+
+Concepto: reduce básico.
+
+🔥 5) Sacar el máximo (reduce)
+
+Crear getMax(arr) que devuelva el número más grande usando reduce.
+
+console.log(getMax([10, 3, 50, 7])); // 50
+
+
+Concepto: reduce como comparador acumulado.
+
+🔥 6) Contar ocurrencias (reduce)
+
+Crear countLetters(str) que reciba un string y devuelva un objeto donde cada letra sea una clave y la cantidad de veces que aparece sea el valor.
+
+Ejemplo:
+
+countLetters("hola") // { h:1, o:1, l:1, a:1 }
+countLetters("mama") // { m:2, a:2 }
+
+
+Concepto: reduce acumulando en un objeto.
+
+🔥 7) Convertir array de objetos en otro formato (map)
+
+Dado un array de objetos con { nombre, edad }, devolver solo los nombres en un array nuevo.
+
+console.log(getNames([
+  { nombre: "Nico", edad: 37 },
+  { nombre: "Ana", edad: 22 }
+]));
+// ["Nico", "Ana"]
+
+
+Concepto: map extrayendo propiedades.
+
+⭐ ¿Por qué estos 7 son SAGRADOS?
+
+Porque si dominás:
+
+map para transformar
+
+filter para seleccionar
+
+reduce para acumular
+
+y cómo operar con objetos
+
+Con estos 7 entendés el 80% de la lógica diaria en cualquier trabajo real.
+
+Son los que te ponen en entrevistas y en pequeñas pruebas técnicas.
