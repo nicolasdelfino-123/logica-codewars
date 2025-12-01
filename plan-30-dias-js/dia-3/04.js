@@ -12,17 +12,21 @@ Implementá una función reverseString(str) que:
 ⭐ Forma “más pro” para resolver después:
     • reduce */
 
-
-function reverseString(str) {
+// resolucion mia
+/* function reverseString(str) {
     let result = ""
     for (let i = str.length - 1; i >= 0; i--) {
         result += str[i]
     }
 
     return result
+} */
+
+function reverseString(str) {
+    return str.reduce((acc, ele, index, str) => {
+
+    }, "")
 }
-
-
 
 console.log(reverseString("Hola"));
 // → "aloH"
