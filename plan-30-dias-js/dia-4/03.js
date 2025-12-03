@@ -12,6 +12,9 @@ Implementá removePropertiesByCondition(obj, conditionFn) que:
 ⭐ Método “pro” sugerido después:
     • Object.entries() + filter + Object.fromEntries() */
 
+const removePropertiesByCondition = (obj, conditionFn) => {
+
+}
 
 
 
