@@ -11,7 +11,7 @@ Implementá getObjectKeys(obj) que:
 */
 
 //solucion mia 
-/* function getObjectKeys(obj) {
+function getObjectKeys(obj) {
 
     let arr = []
     if (Object.keys(obj).length === 0) {
@@ -23,7 +23,7 @@ Implementá getObjectKeys(obj) que:
     }
 
     return arr
-} */
+}
 
 // solucion pro
 
