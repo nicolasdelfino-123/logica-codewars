@@ -1,12 +1,13 @@
 function manufactureGifts(giftsToProduce) {
 
-    return giftsToProduce.reduce(([toy, quantity]) => {
-
-    }, [])
-
-
+    let result = []
+    for (let value of giftsToProduce) {
+        for (let i = 0; i < value.quantity; i++) {
+            result.push(value.toy)
+        }
+    }
+    return result
 }
-
 
 const production1 = [
     { toy: 'car', quantity: 3 },
