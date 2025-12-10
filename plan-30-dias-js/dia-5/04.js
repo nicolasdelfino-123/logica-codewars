@@ -23,7 +23,7 @@ Implementá pluckAges(users) que:
 
 const pluckAges = (arr) => {
 
-    return arr.map((ele) => ele.edad)
+    return arr.map(({ edad }) => edad)
 }
 
 console.log(pluckAges([
