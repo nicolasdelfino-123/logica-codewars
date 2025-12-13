@@ -3,7 +3,7 @@ Dado un objeto, devolvé solo las propiedades cuyos valores sean números pares.
  */
 
 //salió solo
-/* function getEvenValues(obj) {
+function getEvenValues(obj) {
 
     let result = {}
     for (let property in obj) {
@@ -12,7 +12,7 @@ Dado un objeto, devolvé solo las propiedades cuyos valores sean números pares.
         }
     }
     return result
-} */
+}
 
 
 
