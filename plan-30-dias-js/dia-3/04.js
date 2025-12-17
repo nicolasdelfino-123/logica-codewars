@@ -23,9 +23,7 @@ Implementá una función reverseString(str) que:
 } */
 
 function reverseString(str) {
-    return str.reduce((acc, ele, index, str) => {
-
-    }, "")
+    return str.split("").reduce((acc, char) => char + acc, "")
 }
 
 console.log(reverseString("Hola"));
