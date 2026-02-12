@@ -19,12 +19,15 @@ Criterios:
 
 function countLetter(text, letter) {
 
-    if (letter.length > 1) {
+    // primero valido tipos porque si letra es null explota
+    if (typeof text !== 'string' || typeof letter !== 'string') {
         return null
     }
-    if (typeof text !== 'string') {
+
+    if (letter.length !== 1) {
         return null
     }
+
 
     let counter = 0
     text = text.toLowerCase()
