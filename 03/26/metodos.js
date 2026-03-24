@@ -1,0 +1,14 @@
+/* METODOS A APRENDER
+map
+filter
+find
+findIndex
+some
+every
+includes
+reduce
+slice
+toSorted
+toReversed
+toSpliced
+Array.from */
